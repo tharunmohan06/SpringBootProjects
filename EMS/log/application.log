@@ -1,29 +1,56 @@
-2021-09-27 19:45:36.642  INFO 14960 --- [main] com.example.EMS.EmsApplication           : Starting EmsApplication using Java 16.0.2 on DESKTOP-6SJLI8Q with PID 14960 (C:\Users\Tharun06\git\SpringBootProjects\EMS\target\classes started by Tharun06 in C:\Users\Tharun06\git\SpringBootProjects\EMS)
-2021-09-27 19:45:36.648  INFO 14960 --- [main] com.example.EMS.EmsApplication           : No active profile set, falling back to default profiles: default
-2021-09-27 19:45:37.461  INFO 14960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-09-27 19:45:37.538  INFO 14960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
-2021-09-27 19:45:38.071  INFO 14960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-09-27 19:45:38.080  INFO 14960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-27 19:45:38.080  INFO 14960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-09-27 19:45:38.167  INFO 14960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-27 19:45:38.167  INFO 14960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1455 ms
-2021-09-27 19:45:38.358  INFO 14960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-09-27 19:45:38.423  INFO 14960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-09-27 19:45:38.580  INFO 14960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-09-27 19:45:38.690  INFO 14960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-09-27 19:45:38.694  WARN 14960 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-09-27 19:45:39.026  INFO 14960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-09-27 19:45:39.044  INFO 14960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2021-09-27 19:45:39.646  INFO 14960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-27 19:45:39.654  INFO 14960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-09-27 19:45:39.905  WARN 14960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-09-27 19:45:40.228  INFO 14960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-09-27 19:45:40.235  INFO 14960 --- [main] com.example.EMS.EmsApplication           : Started EmsApplication in 4.015 seconds (JVM running for 4.768)
-2021-09-27 19:47:13.284  INFO 14960 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-27 19:47:13.284  INFO 14960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-09-27 19:47:13.285  INFO 14960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-09-27 19:50:51.147  WARN 14960 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2021-09-27 21:06:52.789  INFO 14960 --- [RMI TCP Connection(85)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2021-09-27 21:06:52.821  INFO 14960 --- [RMI TCP Connection(85)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-09-27 21:06:52.823  INFO 14960 --- [RMI TCP Connection(85)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-09-27 21:06:52.828  INFO 14960 --- [RMI TCP Connection(85)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-28 12:31:34.707  INFO 9692 --- [main] com.example.EMS.EmsApplication           : Starting EmsApplication using Java 16.0.2 on DESKTOP-6SJLI8Q with PID 9692 (C:\Users\Tharun06\git\SpringBootProjects\EMS\target\classes started by Tharun06 in C:\Users\Tharun06\git\SpringBootProjects\EMS)
+2021-09-28 12:31:34.712  INFO 9692 --- [main] com.example.EMS.EmsApplication           : No active profile set, falling back to default profiles: default
+2021-09-28 12:31:35.433  INFO 9692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-28 12:31:35.489  INFO 9692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-09-28 12:31:35.960  INFO 9692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-28 12:31:35.970  INFO 9692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-28 12:31:35.970  INFO 9692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-28 12:31:36.065  INFO 9692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-28 12:31:36.065  INFO 9692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1299 ms
+2021-09-28 12:31:36.252  INFO 9692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-28 12:31:36.316  INFO 9692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-28 12:31:36.482  INFO 9692 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-28 12:31:36.594  INFO 9692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-28 12:31:36.600  WARN 9692 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-09-28 12:31:36.931  INFO 9692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-28 12:31:36.949  INFO 9692 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-09-28 12:31:37.570  INFO 9692 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-28 12:31:37.578  INFO 9692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-28 12:31:37.836  WARN 9692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-28 12:31:38.143  INFO 9692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-28 12:31:38.150  INFO 9692 --- [main] com.example.EMS.EmsApplication           : Started EmsApplication in 3.827 seconds (JVM running for 4.515)
+2021-09-28 12:38:45.172  INFO 9692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 12:38:45.172  INFO 9692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-28 12:38:45.173  INFO 9692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-28 13:13:23.093  INFO 9692 --- [RMI TCP Connection(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-28 13:13:23.140  INFO 9692 --- [RMI TCP Connection(44)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-28 13:13:23.141  INFO 9692 --- [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-28 13:13:23.145  INFO 9692 --- [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-28 13:13:26.599  INFO 13208 --- [main] com.example.EMS.EmsApplication           : Starting EmsApplication using Java 16.0.2 on DESKTOP-6SJLI8Q with PID 13208 (C:\Users\Tharun06\git\SpringBootProjects\EMS\target\classes started by Tharun06 in C:\Users\Tharun06\git\SpringBootProjects\EMS)
+2021-09-28 13:13:26.601  INFO 13208 --- [main] com.example.EMS.EmsApplication           : No active profile set, falling back to default profiles: default
+2021-09-28 13:13:27.113  INFO 13208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-28 13:13:27.158  INFO 13208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2021-09-28 13:13:27.574  INFO 13208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-28 13:13:27.586  INFO 13208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-28 13:13:27.587  INFO 13208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-28 13:13:27.681  INFO 13208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-28 13:13:27.681  INFO 13208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2021-09-28 13:13:27.845  INFO 13208 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-28 13:13:27.891  INFO 13208 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-28 13:13:28.015  INFO 13208 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-28 13:13:28.130  INFO 13208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-28 13:13:28.136  WARN 13208 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-09-28 13:13:28.474  INFO 13208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-28 13:13:28.488  INFO 13208 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-09-28 13:13:29.030  INFO 13208 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-28 13:13:29.039  INFO 13208 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-28 13:13:29.277  WARN 13208 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-28 13:13:29.553  INFO 13208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-28 13:13:29.560  INFO 13208 --- [main] com.example.EMS.EmsApplication           : Started EmsApplication in 3.306 seconds (JVM running for 3.948)
+2021-09-28 13:13:46.987  INFO 13208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-28 13:13:46.987  INFO 13208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-28 13:13:46.988  INFO 13208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-28 13:46:08.427  INFO 13208 --- [RMI TCP Connection(37)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-28 13:46:08.464  INFO 13208 --- [RMI TCP Connection(37)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-28 13:46:08.465  INFO 13208 --- [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-28 13:46:08.471  INFO 13208 --- [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
